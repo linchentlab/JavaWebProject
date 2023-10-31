@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    background-image: url(w.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+.container{
+    width: 400px;
+    margin: 3% auto;
+    border-right: 25px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 17px #333333;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+}
+.header h1{
+    color:#333333 ;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+.main{
+    text-align: center;
+}
+.main input,button{
+    width: 300px;
+    height: 40px;
+    /*边框消失*/
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.main button{
+    padding-left: 0;
+    background-color: #2e6da4;
+    letter-spacing: 1px;
+    font-width: bold;
+    margin-bottom: 70px;
+}
+.main button{
+    box-shadow: 2px 5px #555555;
+    background-color: #7799d4;
+}
+.main input:hover{
+    box-shadow: 2px 5px #555555;
+    background-color: #dddddd;
+}
+.main span{
+    position: relative;
+}
+.main i{
+    position: absolute;
+    left: 15px;
+    color: #333333;
+    font-size: 16px;
+    top: 2px;
+}
